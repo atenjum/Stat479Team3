@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# Indian Cuisine Analysis 
+### Team 3: Sebastian Khattabi, Abby Kisicki, Andrew Tenjum
 
-You can use the [editor on GitHub](https://github.com/atenjum/Stat479Team3/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Introduction: 
+With nearly 80,000 Indian restaurants in the United States, Indian cuisine has cemented itself in the cultural food landscape as food that is complex, fulfilling, and exciting. India has aptly been called “The Land of Spices,” and no other country can purport similar claims. No country in the world produces as many varieties of spices as India. With a history rooted in colonialism and such a diverse ethnic makeup, India’s food is complex to say the least. But what makes a dish inherently “Indian?” Is it the ingredients in the dish? Is it the way the dish is prepared? Is it the origin of the dish? Is it the flavor profile of the dish? There are so many questions to consider when considering this deep dive analysis into Indian cuisine. 
+ 
+We intend to communicate existing knowledge of Indian cuisine in a new way. As Indian food continues to rise in popularity, chefs, cooks, food scientists, restaurateurs, and even retail owners need to have an in-depth understanding of Indian cuisine. At the end of this group project, we hope that the (non-statistics) professionals mentioned earlier can simply look at our data visualizations and gain a deeper understanding of Indian food.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Data Sources: 
+Our analysis will be based on a dataset of 255 Indian dishes that contains a list of ingredients, type of diet (vegetarian or non-vegetarian), preparation and cook time, flavor profile, type of course, and the state/region where the dish originated. The original dataset can be found [here](https://www.kaggle.com/nehaprabhavalkar/indian-food-101). 
 
-### Markdown
+## Visualization #1:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Link to Visualization](https://www.kaggle.com/nehaprabhavalkar/indian-food-101)
 
-```markdown
-Syntax highlighted code block
+Our first visualization is a display of Indian dishes based on their geographic origin. The user can click on a region of interest on the map and a list of dishes that originated in that region is displayed. For our next implementation, we plan to add additional information about the dishes in each region such as their ingredient profile, flavor profile, and type of diet (i.e. vegetarian or non-vegeterian). 
 
-# Header 1
-## Header 2
-### Header 3
+[Conclusions]
 
-- Bulleted
-- List
+## Visualization #2:
+Our second visualization attempts to identify similarities between dishes based on the ingredients they contain. A network was implemented using a node-link diagram. The nodes in the network represent different dishes while the edges between nodes represent whether dishes contain common ingredients. Furthermore, the edge weights represent the number of ingredients shared by dishes.  
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/atenjum/Stat479Team3/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Conclusions]
