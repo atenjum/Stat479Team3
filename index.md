@@ -15,9 +15,7 @@ Our first visualization is a display of Indian dishes based on their geographic 
 
 [Link to Visualization](https://www.kaggle.com/nehaprabhavalkar/indian-food-101)
 
-From the visualization, it's clear that more dishes originate in some regions of India than others. [Add More Detail]
-
-However, this visualization will be more useful when we add additional information about the dishes. This way, the user will be able to compare differences in ingredients and flavor profiles across regions of India and identify geographic trends in Indian cuisine. 
+From the visualization, it's clear that more dishes originate in some regions of India than others. However, this visualization will be more useful when we add additional information about the dishes. This way, the user will be able to compare differences in ingredients and flavor profiles across regions of India and identify geographic trends in Indian cuisine. 
 
 ## Visualization #2:
 Our second visualization attempts to identify similarities between dishes based on the ingredients they contain. A network was implemented using a node-link diagram. The nodes in the network represent different dishes while the edges between nodes represent whether dishes contain more than 1 common ingredients. Furthermore, the edge weights represent the number of ingredients shared by dishes. 
