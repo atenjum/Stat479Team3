@@ -13,11 +13,13 @@ Our analysis will be based on a dataset of 255 Indian dishes that contains a lis
 
 [Link to Visualization](https://www.kaggle.com/nehaprabhavalkar/indian-food-101)
 
-Our first visualization is a display of Indian dishes based on their geographic origin. The user can click on a region of interest on the map and a list of dishes that originated in that region is displayed. For our next implementation, we plan to add additional information about the dishes in each region such as their ingredient profile, flavor profile, and type of diet (i.e. vegetarian or non-vegeterian). 
+Our first visualization is a display of Indian dishes based on their geographic origin. Each region is labeled with a list of dishes that originated in that region. For our next implementation, we plan to add a tooltip so that the user can interactively select regions of interest to learn information about. Furthermore, we will add additional information about the dishes in each region such as their ingredient profile, flavor profile, and type of diet (i.e. vegetarian or non-vegeterian). 
 
 [Conclusions]
 
 ## Visualization #2:
-Our second visualization attempts to identify similarities between dishes based on the ingredients they contain. A network was implemented using a node-link diagram. The nodes in the network represent different dishes while the edges between nodes represent whether dishes contain common ingredients. Furthermore, the edge weights represent the number of ingredients shared by dishes.  
+Our second visualization attempts to identify similarities between dishes based on the ingredients they contain. A network was implemented using a node-link diagram. The nodes in the network represent different dishes while the edges between nodes represent whether dishes contain more than 1 common ingredients. Furthermore, the edge weights represent the number of ingredients shared by dishes. 
 
-[Conclusions]
+![](Network.png)
+
+From this diagram, we can identify clusters of dishes that share ingredients. For example, at the top of the diagram we can see a distinct cluster of dishes with common ingredients, including several dishes that share large numbers of ingredients. The cluster at the bottom of the diagram also contains dishes with similar ingredients, but this cluster is more spread out, meaning that the dishes are collectively less similar to each other and also share lesser numbers of ingredients on average. Finally, on the sides of the diagram we see dishes that are more isolated, meaning their ingredient profile is relatively unique. A goal in the next implementation will be to make the diagram more interpretable by excluding dishes that share small numbers of ingredients are utilizing color to add more descriptive details. 
