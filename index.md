@@ -20,6 +20,6 @@ Our first visualization is a display of Indian dishes based on their geographic 
 ## Visualization #2:
 Our second visualization attempts to identify similarities between dishes based on the ingredients they contain. A network was implemented using a node-link diagram. The nodes in the network represent different dishes while the edges between nodes represent whether dishes contain more than 1 common ingredients. Furthermore, the edge weights represent the number of ingredients shared by dishes. 
 
-![Visualization #2](/Users/Andrew/Desktop/Network.png)
+![Visualization #2](Users/Andrew/Desktop/Network.png)
 
 From this diagram, we can identify clusters of dishes that share ingredients. For example, at the top of the diagram we can see a distinct cluster of dishes with common ingredients, including several dishes that share large numbers of ingredients. The cluster at the bottom of the diagram also contains dishes with similar ingredients, but this cluster is more spread out, meaning that the dishes are collectively less similar to each other and also share lesser numbers of ingredients on average. Finally, on the sides of the diagram we see dishes that are more isolated, meaning their ingredient profile is relatively unique. A goal in the next implementation will be to make the diagram more interpretable by excluding dishes that share small numbers of ingredients are utilizing color to add more descriptive details. 
