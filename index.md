@@ -15,6 +15,10 @@ Our first visualization will be a display of Indian dishes based on their geogra
 
 [Link to Visualization](https://observablehq.com/d/4cb4e770d97e1a73)
 
+**Note: We are having difficulty with loading the geojson file in our Observable notebook. A sketch of our intended visualization is shown below while we work on implementing the aformentioned features.**
+
+![Visualization #1](https://user-images.githubusercontent.com/83096602/115973028-ad953600-a517-11eb-879e-1d3a96cb928a.png)
+
 This visualization will be more useful when we add additional information about the dishes. Our goal is for the user to be able to compare differences in ingredients and flavor profiles across regions of India and identify geographic trends in Indian cuisine. 
 
 ## Visualization #2:
