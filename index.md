@@ -13,7 +13,7 @@ Our analysis will be based on a dataset of 255 Indian dishes that contains a lis
 
 Our first visualization is a display of Indian dishes based on their geographic origin. Each region is labeled with a list of dishes that originated in that region. For our next implementation, we plan to add a tooltip so that the user can interactively select regions of interest to learn information about. Furthermore, we will add additional information about the dishes in each region such as their ingredient profile, flavor profile, and type of diet (i.e. vegetarian or non-vegeterian). 
 
-[Link to Visualization](https://www.kaggle.com/nehaprabhavalkar/indian-food-101)
+[Link to Visualization](insertlinkhere.com)
 
 From the visualization, it's clear that more dishes originate in some regions of India than others. However, this visualization will be more useful when we add additional information about the dishes. This way, the user will be able to compare differences in ingredients and flavor profiles across regions of India and identify geographic trends in Indian cuisine. 
 
