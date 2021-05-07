@@ -13,18 +13,17 @@ Our analysis will be based on a dataset of 255 Indian dishes that contains a lis
 
 Our first visualization will be a display of Indian dishes based on their geographic origin. Each region will be labeled with a list of dishes that originated in that region. For our next implementation, we plan to add a tooltip so that the user can interactively select regions of interest to learn information about. Furthermore, we plan to add additional information about the dishes in each region such as their ingredient profile, flavor profile, and type of diet (i.e. vegetarian or non-vegeterian). 
 
-[Link to Visualization](https://observablehq.com/d/4cb4e770d97e1a73)
-
-**Note: We are having difficulty with loading the geojson file in our Observable notebook. A sketch of our intended visualization is shown below while we work on implementing the aformentioned features.**
-
-![Visualization #1](https://user-images.githubusercontent.com/83096602/115973133-66f40b80-a518-11eb-9458-57e7c5ea6384.png)
-
-This visualization will be more useful when we add additional information about the dishes. Our goal is for the user to be able to compare differences in ingredients and flavor profiles across regions of India and identify geographic trends in Indian cuisine. 
+[Link to Visualization #1](https://observablehq.com/@seabass394/indian-recipes-map)
 
 ## Visualization #2:
 Our second visualization attempts to identify similarities between dishes based on the ingredients they contain. A network was implemented using a node-link diagram. The nodes in the network represent different dishes while the edges between nodes represent whether dishes contain more than 1 common ingredients. Furthermore, the edge weights represent the number of ingredients shared by dishes. 
 
-
 ![Visualization #2](https://user-images.githubusercontent.com/83096602/115945146-e84b8f80-a47f-11eb-8960-324f5e862640.png)
+[Whole Net]
+[Bigger Dense 1]
+[Bigger Dense 2]
+[Less Dense]
 
-From this diagram, we can identify clusters of dishes that share ingredients. For example, at the top of the diagram we can see a distinct cluster of dishes with common ingredients, including several dishes that share large numbers of ingredients. The cluster at the bottom of the diagram also contains dishes with similar ingredients, but this cluster is more spread out, meaning that the dishes are collectively less similar to each other and also share lesser numbers of ingredients on average. Finally, on the sides of the diagram we see dishes that are more isolated, meaning their ingredient profile is relatively unique. A goal in the next implementation will be to make the diagram more interpretable by excluding dishes that share small numbers of ingredients and utilizing color to add more descriptive details. 
+From this diagram, we can identify clusters of dishes that share ingredients. For example, at the top of the diagram we can see a distinct cluster of dishes with common ingredients, including several dishes that share large numbers of ingredients. The cluster at the bottom of the diagram also contains dishes with similar ingredients, but this cluster is more spread out, meaning that the dishes are collectively less similar to each other and also share lesser numbers of ingredients on average. Finally, on the sides of the diagram we see dishes that are more isolated, meaning their ingredient profile is relatively unique. A goal in the next implementation will be to make the diagram more interpretable by excluding dishes that share small numbers of ingredients and utilizing color to add more descriptive details.
+
+## Visualization #3:
