@@ -31,6 +31,8 @@ From this diagram, we can identify clusters of dishes that share ingredients. Fo
 
 ## Visualization #3:
 
+Our 3rd visualization is a principal component analysis of the 255 Indian food recipes. The principal components are derived from the 366 unique ingredients which are coded as binary dummy variables. By reducing the 366 features (ingredients) into just a few principal components, we are able to condense large amounts of information while minimizing information.
+
 ![PC1 and PC2](https://user-images.githubusercontent.com/83096602/117506860-e38cde00-af4b-11eb-90ff-633f31971088.png)
 
 ![PC1 vs. PC2](https://user-images.githubusercontent.com/83096602/117508991-171d3780-af4f-11eb-9d0c-ebfde1bb4741.png)
