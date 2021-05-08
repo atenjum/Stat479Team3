@@ -18,13 +18,7 @@ Our analysis will be based on a dataset of 255 Indian dishes that contains a lis
 [Description of Visualization #2]
 Our second visualization attempts to identify similarities between dishes based on the ingredients they contain. A network was implemented using a node-link diagram. The nodes in the network represent different dishes while the edges between nodes represent whether dishes contain more than 1 common ingredient. Furthermore, the edge weights represent the number of ingredients shared by dishes. 
 
-![Whole Net](https://user-images.githubusercontent.com/83096602/117506041-92301f00-af4a-11eb-845f-f3ffa15a2e8b.png)
-
-![Bigger Dense 1](https://user-images.githubusercontent.com/83096602/117506316-01a60e80-af4b-11eb-92f4-96c371f559f4.png)
-
-![Bigger Dense 2](https://user-images.githubusercontent.com/83096602/117506378-1b475600-af4b-11eb-9255-9ae9a1f42b00.png)
-
-![Less Dense](https://user-images.githubusercontent.com/83096602/117506574-6b261d00-af4b-11eb-9ac9-a238ffed51e3.png)
+![image](https://user-images.githubusercontent.com/83096602/117521403-3463fd00-af73-11eb-8048-e15d2e5dccd6.png)
 
 [Interpretations of Visualization #2]
 From this diagram, we can identify clusters of dishes that share ingredients. For example, at the top of the diagram we can see a distinct cluster of dishes with common ingredients, including several dishes that share large numbers of ingredients. The cluster at the bottom of the diagram also contains dishes with similar ingredients, but this cluster is more spread out, meaning that the dishes are collectively less similar to each other and also share lesser numbers of ingredients on average. Finally, on the sides of the diagram we see dishes that are more isolated, meaning their ingredient profile is relatively unique. A goal in the next implementation will be to make the diagram more interpretable by excluding dishes that share small numbers of ingredients and utilizing color to add more descriptive details.
